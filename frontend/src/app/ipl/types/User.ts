@@ -20,6 +20,8 @@ this.email=email;
 this.role = role;
     }
     displayInfo(){
-        console.log(`user ID: ${this.userId}, full name: ${this.fullName}, email: ${this.email}`)
+        console.log(`user ID: ${this.userId}`);
+        console.log(`Full Name: ${this.fullName}`);
+        console.log(`Email: ${this.email}`);
     }
 }

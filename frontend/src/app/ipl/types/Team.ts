@@ -13,6 +13,8 @@ export class Team {
     this.establishmentYear = establishmentYear;
   }
   displayInfo():void{
-    console.log(`ID: ${this.teamId}, Name: ${this.teamName}, Location: ${this.location}`);
+    console.log(`Team ID: ${this.teamId}`);
+    console.log(`Team Name: ${this.teamName}`);
+    console.log(`Location: ${this.location}`);
   }
 }

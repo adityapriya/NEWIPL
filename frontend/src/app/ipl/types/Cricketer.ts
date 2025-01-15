@@ -22,7 +22,9 @@ export class Cricketer {
     }
   
     displayInfo(): void {
-      console.log(`Cricketer ID: ${this.cricketerId}\n Team ID: ${this.teamId}\n Name: ${this.cricketerName}\n Age: ${this.age}\n Nationality: ${this.nationality}\n Experience: ${this.experience}\n Role: ${this.role}\n Total Runs: ${this.totalRuns}\n Total Wickets: ${this.totalWickets}`);
+      console.log(`Cricketer ID: ${this.cricketerId}`);
+      console.log(`Team ID: ${this.teamId}`);
+      console.log(`Cricketer Name: ${this.cricketerName}`);
     }
   }
   
